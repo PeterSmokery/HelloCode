@@ -17,7 +17,15 @@ N=N+1;}
 Console.Write(N0);
 }
 if (N<0)
+{while(N<0)
+{
+    Console.Write(N);
+    Console.Write(",");
+    N=N+1;
+}
+while(N!=-N0)
 {Console.Write(N);
 Console.Write(",");
-N=N+1;
+N=N+1;}
+Console.Write(N);
 }
