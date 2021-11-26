@@ -1,0 +1,18 @@
+﻿Console.WriteLine("введите координату X первой точки:");
+int X1 =int.Parse(Console.ReadLine());
+Console.WriteLine("введите координату Y первой точки:");
+int Y1 =int.Parse(Console.ReadLine());
+Console.WriteLine("введите координату Z первой точки:");
+int Z1 =int.Parse(Console.ReadLine());
+Console.WriteLine("введите координату X второй точки:");
+int X2 =int.Parse(Console.ReadLine());
+Console.WriteLine("введите координату Y второй точки:");
+int Y2 =int.Parse(Console.ReadLine());
+Console.WriteLine("введите координату Z второй точки:");
+int Z2 =int.Parse(Console.ReadLine());
+int S_v_2d=Convert.ToInt32( Math.Sqrt(Math.Pow((X2-X1),2)+Math.Pow((Y2-Y1),2)));
+Console.Write("Расстояние между точками в 2D равно ");
+Console.WriteLine(S_v_2d);
+int S_v_3D = Convert.ToInt32( Math.Sqrt(Math.Pow((X2-X1),2)+Math.Pow((Y2-Y1),2)+Math.Pow((Z2-Z1),2)));
+Console.Write("Расстояние между точками в 3D равно ");
+Console.WriteLine(S_v_3D);
