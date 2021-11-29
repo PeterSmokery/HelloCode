@@ -29,5 +29,6 @@ void mssivePrint(int[] arrey)
 }
 void massive_order_changer(int[] order)
 {
-    
+     int lenght=order.Length;
+     int 
 }
