@@ -11,7 +11,7 @@ void N_World_fill(int[] order)
       Console.Write(order[position]);
         if(position+1==lenght)
         {
-            Console.Write(" ура мы справились ! ");
+        
             break;
         }
         Console.Write(',');
