@@ -7,7 +7,7 @@ void N_World_fill(int[] order)
     int position = 0;
     while (position < lenght )
     {
-      order[position] = otric_N;
+      order[position] = otric_N; 
       Console.Write(order[position]);
         if(position+1==lenght)
         {
