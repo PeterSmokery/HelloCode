@@ -1,5 +1,5 @@
-﻿int numberA = 100 ;
-int numberB = 10;
+﻿int numberA =10;
+int numberB=100;
 if (numberB/numberA==numberA)
 {
     Console.WriteLine("первое число квадрат второго");
