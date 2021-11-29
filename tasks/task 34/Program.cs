@@ -31,13 +31,17 @@ void massive_order_changer(int[] order)
 {
      int lenght=order.Length;
      int position=0;
-     while(position<N)
+     int end=order[0];
+     int last_number=order[lenght-1];
+     while(position<N-1)
      {
-         order[position]=order[lenght];
-         Console.WriteLine
+         order[position]=order[lenght-1];
+         Console.Write(order[position]);
+         Console.Write(",");
          position++;
          lenght--;
      }
+     Console.Write(end);
 }
 massive_filler(massive);
 mssivePrint(massive);
