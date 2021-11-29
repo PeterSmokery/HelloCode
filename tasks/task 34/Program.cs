@@ -30,5 +30,15 @@ void mssivePrint(int[] arrey)
 void massive_order_changer(int[] order)
 {
      int lenght=order.Length;
-     int 
+     int position=0;
+     while(position<N)
+     {
+         order[position]=order[lenght];
+         Console.WriteLine
+         position++;
+         lenght--;
+     }
 }
+massive_filler(massive);
+mssivePrint(massive);
+massive_order_changer(massive);
