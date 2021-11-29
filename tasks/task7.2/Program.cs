@@ -5,9 +5,9 @@ void N_World_fill(int[] order)
 {
     int lenght= order.Length;
     int position = 0;
-    while (position < lenght );
+    while (position < lenght )
     {
-      order[position] = new Random().Next(1,9);
+      order[position] = otric_N;
       otric_N++; 
       position++;
     }
@@ -18,8 +18,13 @@ void N_World_print(int[]array)
     int pool = 0;
     while (pool< order)
     {
-        Console.WriteLine(array[pool]);
-        order++;
+        Console.Write(array[pool]);
+        if(pool+1==order)
+        {
+            break;
+        }
+        Console.Write(',');
+        pool++;
     
     }
 }
