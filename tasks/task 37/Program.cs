@@ -32,7 +32,7 @@ void massive_number_counter_from_10_till_100(int[] dobby)
     int count =0;
     while(position<lenght)
     {
-        if(dobby[position]<100 && dobby[position]>10)
+        if(dobby[position]<100 & dobby[position]>10)
         {
             count++;
         }
