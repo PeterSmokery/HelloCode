@@ -7,6 +7,6 @@ while (count-1<N)
     Console.Write(count);
     Console.Write(" в квадрате равно = ");
     Console.Write(Math.Pow(count,2));
-    Console.Write(",");
+    Console.WriteLine(";");
     count++;
 }

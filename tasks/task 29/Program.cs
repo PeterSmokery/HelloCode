@@ -8,5 +8,3 @@ while(count<N)
     proizv = proizv *  count;
 }
 Console.WriteLine(proizv);
-
-
