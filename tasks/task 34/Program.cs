@@ -1,4 +1,4 @@
-﻿Console.WriteLine("введите число:");
+﻿Console.WriteLine("введите длинну массива:");
 int N = int.Parse(Console.ReadLine());
 int[] massive = new int[N];
 void massive_filler (int[] arrey)
